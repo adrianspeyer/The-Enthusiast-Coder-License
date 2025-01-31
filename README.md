@@ -1,193 +1,270 @@
 # The Enthusiast Coder License (EnCL)
 
-## Why This License Exists
+[![EnCL Licensed](https://img.shields.io/badge/License-EnCL-0291db.svg)](LICENSE.md)
 
-The Enthusiast Coder License (EnCL) was born from a simple reality: not everyone who writes and shares code is a professional developer. Many of us are business professionals, enthusiasts, or hobbyists who code because we love it, want to solve problems, or simply enjoy creating things.
+## Introduction
 
-## Core Principles
+The Enthusiast Coder License (EnCL) was born from a simple reality: not everyone who writes and shares code is a professional developer. Many of us are business professionals, enthusiasts, and hobbyists who code because we love it, want to solve problems, or simply enjoy creating things. EnCL provides a framework for sharing this code honestly and openly.
 
-1. **Honesty About Who We Are**
-   - We're not professional developers
-   - We code for fun, learning, and problem-solving
-   - Our primary jobs or responsibilities lie elsewhere
+## License Comparison
 
-2. **Transparency About Support**
-   - No guaranteed response times
-   - No formal support structure
-   - Updates and improvements happen organically
-   - Our involvement is based on available time and interest
+| Feature | MIT | Apache 2.0 | GPL 3.0 | BSD | EnCL |
+|---------|-----|------------|---------|-----|------|
+| Free to use | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Commercial use allowed | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Must include license | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Can modify code | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Patent protection | - | ✓ | ✓ | - | - |
+| Private use | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Share modifications | Optional | Optional | Required | Optional | Encouraged |
+| Derivatives can use other licenses | ✓ | ✓ | - | ✓ | ✓ |
+| Clear support expectations | - | - | - | - | ✓ |
+| Explicit hobbyist context | - | - | - | - | ✓ |
+| Support/maintenance commitment | - | - | - | - | Clearly None |
 
-3. **Encouraging Sharing and Learning**
-   - Share your code freely
-   - Learn from others
-   - Contribute back when possible
-   - Build on each other's work
+## When to Choose EnCL
 
-4. **Fair Recognition**
-   - Credit original authors
-   - Acknowledge sources
-   - Share improvements back with the community
-   - Consider fair compensation for commercial success
+### Perfect For:
 
-## Who Should Use This License
+1. **Startup and Business Prototypes**
+   - Proof-of-concept tools
+   - Internal tools made public
+   - MVP projects
+   - Experimental features
 
-- Business professionals who code on the side
-- Hobby programmers sharing their projects
-- Weekend coders with useful tools to share
-- Anyone who codes for fun but wants to be clear about support limitations
+2. **Side Projects**
+   - Weekend projects
+   - Personal tools
+   - Learning experiments
+   - Utility scripts
 
-## What Makes EnCL Different
+3. **Professional's Hobby Code**
+   - Marketing tools
+   - Business automation scripts
+   - Data analysis tools
+   - Workflow improvements
 
-Unlike traditional software licenses that assume professional development practices, EnCL embraces the reality of hobby coding:
+4. **Learning Projects**
+   - Portfolio pieces
+   - Tutorial outcomes
+   - Educational projects
+   - Skill demonstrations
 
-- Clear expectations about support and maintenance
-- Honest about the developer's status and availability
-- Encourages commercial users to give back
-- Maintains the spirit of open source while being realistic about limitations
+### Choose Another License When:
+1. You need patent protection (Use Apache 2.0)
+2. You're releasing official company software (Use MIT/Apache)
+3. You need enterprise-grade legal protection (Use Apache 2.0)
+4. You want maximum simplicity with minimal terms (Use MIT)
+5. You need to legally enforce open source requirements (Use GPL)
 
-## Real-World Example
+Note: EnCL strongly supports and encourages open source development, but provides flexibility for derivative works to choose their own licensing path. This allows for broader adoption and use cases while still encouraging community contribution through other means.
 
-Imagine you're a marketing professional who created a useful data analysis tool for your work. It's good enough that others might find it valuable, but:
-- You can't promise to fix bugs immediately
-- You might improve it when you have time
-- You're happy to share it but can't offer professional support
-- You want credit if someone uses it successfully
+## Quick Start Guide
 
-EnCL is designed exactly for situations like this.
+## README.md Template
 
-## Using EnCL
+Here's a template for your project's README.md:
 
-1. If you're a creator:
-   - Add the EnCL license to your project
-   - Be clear about your status as an enthusiast coder
-   - Share updates and improvements when you can
-   - Maintain ownership of your contribution pace
+```markdown
+# Your Project Name
 
-2. If you're a user:
-   - Understand the nature of enthusiast-created code
-   - Test thoroughly before production use
-   - Consider contributing improvements
-   - Provide attribution as specified
-   - Consider fair compensation for commercial success
+[Brief project description]
+
+[![EnCL Licensed](https://img.shields.io/badge/License-EnCL-0291db.svg)](LICENSE.md)
+
+## About This Project
+
+This is a hobby/enthusiast project created to [your purpose here]. As an EnCL-licensed project:
+- It's provided as-is without guaranteed support
+- Updates and improvements happen based on author availability and interest
+- Contributions and feedback are welcome
+- Commercial use is allowed with attribution
+
+## Getting Started
+
+[Your setup instructions]
+
+## Usage
+
+[Your usage instructions]
+
+## Contributing
+
+Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the Enthusiast Coder License (EnCL) - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+[Your acknowledgments]
+```
+
+### Using EnCL-Licensed Code
+
+1. Review attribution requirements
+2. Include proper credits
+3. Document any modifications
+4. Respect support limitations
+5. Consider contributing improvements
+
+## Attribution Examples
+
+### In README.md
+```markdown
+This project uses code from [Project Name] by [Author Name] (link to repository),
+licensed under the Enthusiast Coder License (EnCL).
+
+Modified components:
+- Component A: Added feature X
+- Component B: Optimized for Y
+```
+
+### In Source Code
+```python
+# This code includes work from [Project Name] by [Author Name]
+# Original repository: [URL]
+# Licensed under EnCL
+# Modifications: [Brief description of changes]
+```
+
+### In User Interface
+```html
+<div class="about">
+  <p>This application uses components from [Project Name] by [Author Name]</p>
+  <p>Licensed under EnCL</p>
+</div>
+```
+
+### Commercial Product Template
+```markdown
+[Product Name] incorporates code from [Project Name] by [Author Name], 
+licensed under the Enthusiast Coder License (EnCL). The original code 
+can be found at [repository URL]. While the original code is provided 
+without warranty or support, [Your Company] provides full support for 
+our implementation and modifications.
+```
+
+## FAQ
+
+### General
+
+**Q: Why was EnCL created?**
+A: To provide a license that honestly reflects the reality of hobby coding and sets clear expectations about support and maintenance.
+
+**Q: Can I use EnCL code commercially?**
+A: Yes! Commercial use is allowed with proper attribution. Users are encouraged to support the open source community when deriving significant value.
+
+**Q: What makes EnCL different from other licenses?**
+A: EnCL explicitly acknowledges the hobby/enthusiast nature of the code and sets clear expectations about support and maintenance.
+
+### License Details
+
+**Q: Can I change the license for my modifications?**
+A: Yes, derivative works can use different licenses. The original code remains under EnCL.
+
+**Q: Can the original author change the license?**
+A: Yes, for future versions. Existing versions remain under their original license terms permanently.
+
+**Q: Does EnCL require sharing modifications?**
+A: No, but it's encouraged. You can keep modifications private or release them under different licenses.
+
+### Commercial Use
+
+**Q: Do we need to pay to use EnCL code?**
+A: No, but if you derive significant commercial value, considering some form of giving back to the community is encouraged.
+
+**Q: Can we offer professional support for EnCL code?**
+A: Yes! While the original author provides no guaranteed support, you can offer professional support for your implementation.
+
+## Best Practices
+
+### For Original Authors
+
+1. **Clear Communication**
+   - State the project's hobby nature
+   - Document known limitations
+   - Set support expectations
+   - Provide usage examples
+
+2. **Documentation**
+   - Basic setup instructions
+   - Known issues
+   - Usage limitations
+   - Contribution guidelines
+
+3. **Maintenance**
+   - Be clear about response times
+   - Document your update process
+   - Explain how you handle issues
+   - Set realistic expectations
+
+### For Users
+
+1. **Before Using**
+   - Evaluate code thoroughly
+   - Plan for self-maintenance
+   - Document modifications
+   - Respect project limitations
+
+2. **Contributing Back**
+   - Share improvements when possible
+   - Report issues clearly
+   - Provide complete information
+   - Be patient with responses
+
+### For Commercial Users
+
+1. **Integration**
+   - Thorough testing
+   - Clear attribution
+   - Document modifications
+   - Plan for maintenance
+
+2. **Community Support**
+   - Consider giving back
+   - Share improvements
+   - Acknowledge value
+   - Support open source
 
 ## The Spirit of EnCL
 
-EnCL embodies the joy of coding while being realistic about limitations. It's about creating a space where enthusiast coders can share their work proudly, without the pressure of professional software development expectations.
+EnCL embodies several core principles:
 
-## Origins
+1. **Honesty**
+   - Clear about limitations
+   - Transparent about support
+   - Open about hobby nature
 
-Created in 2025 by Adrian Speyer, EnCL addresses the gap between traditional software licenses and the reality of hobby coding. It provides a framework for sharing code that respects both the creator's limitations and the user's needs.
+2. **Community**
+   - Encouraging sharing
+   - Supporting learning
+   - Building connections
+   - Fostering improvement
 
-## Get Involved
+3. **Fair Play**
+   - Proper attribution
+   - Reasonable expectations
+   - Mutual respect
+   - Encouraging support
 
-- Use EnCL for your projects
-- Share your experiences
-- Suggest improvements
-- Help build a community of enthusiast coders
+## Future Considerations
+
+1. **Community Growth**
+   - EnCL project directories
+   - Best practices evolution
+   - Support networks
+   - Knowledge sharing
+
+2. **Platform Integration**
+   - Development tools
+   - Attribution automation
+   - Community features
+   - Usage tracking
+
+## Conclusion
+
+EnCL bridges the gap between traditional licenses and the reality of hobby coding in today's world. It provides a framework for honest sharing while protecting both creators and users through clear expectations and guidelines.
 
 Remember: EnCL is about making code sharing more accessible and honest for everyone who codes for the love of it.
-
-## License Flexibility and Derivative Works
-
-EnCL is intentionally flexible when it comes to derivative works. Here's what this means:
-
-- **Derivative Works**: Others can take EnCL-licensed code and release their modified versions under different licenses
-- **Original Code**: The original portions remain under EnCL, requiring proper attribution
-- **Mixed Licensing**: Projects can contain both EnCL and non-EnCL code
-- **No Share-Alike Requirement**: We don't force others to use EnCL for their modifications
-
-### Real-World Examples
-
-1. **The Analytics Dashboard Scenario**
-   - Original: A marketing professional creates a data visualization dashboard under EnCL
-   - Derivative: A software company incorporates it into their product under MIT license
-   - Result: They must credit the original author, but can provide full support for their version
-   
-2. **The Utility Script Evolution**
-   - Original: A business analyst shares a PDF processing script under EnCL
-   - Derivative: A developer expands it into a full-featured library under Apache 2.0
-   - Result: Original code attribution remains, but the library can have professional support
-
-3. **The API Wrapper Growth**
-   - Original: A hobbyist creates a basic API wrapper under EnCL
-   - Derivative: A startup builds a commercial product around it
-   - Result: They can offer enterprise support while maintaining original attribution
-
-The key point is that while the original author provides no support under EnCL, derivative work creators can choose to provide any level of support they wish. The EnCL restrictions and disclaimers only apply to the original code in its original form.
-
-This flexibility is intentional because:
-- It encourages innovation and reuse
-- It allows integration with other open source projects
-- It reduces barriers to adoption
-- It focuses on attribution rather than restriction
-
-## Why EnCL Was Created
-
-EnCL emerged from several key observations:
-
-1. **The Reality Gap**
-   - Traditional licenses assume professional development practices
-   - Many coders today are professionals in other fields
-   - Support expectations needed to be more realistic
-
-2. **The Honesty Principle**
-   - Being upfront about hobby code nature
-   - Setting clear expectations about support
-   - Protecting both creators and users through clarity
-
-3. **The Support Dilemma**
-   - Hobby coders want to share but can't provide professional support
-   - Users need to understand what they're getting into
-   - Traditional licenses don't address this clearly enough
-
-4. **Common Scenarios**
-   - Marketing professionals sharing automation scripts
-   - Business analysts sharing data tools
-   - Product managers sharing prototypes
-   - Anyone who codes for fun sharing useful tools
-
-## Frequently Asked Questions
-
-**Q: Why create a new license instead of using existing ones?**
-A: While many great licenses exist, none clearly communicate the nature of hobby coding and set appropriate expectations about support and maintenance.
-
-**Q: Is this an anti-professional license?**
-A: Not at all! It's about honesty and setting correct expectations. Professional developers can use EnCL too when sharing personal projects.
-
-**Q: Does this discourage people from using the code?**
-A: It discourages casual dependency without proper consideration, which is actually a feature, not a bug.
-
-**Q: What if I want to provide support later?**
-A: You can always choose to provide more support than the license requires, or you can release a new version under a different license.
-
-## The Spirit of Reciprocity
-
-While EnCL is a permissive license with no strict requirements beyond attribution, it embodies a hope for mutual benefit and community goodwill. Here's what we encourage (but don't require):
-
-1. **Sharing Success**
-   - If your product becomes commercially successful using EnCL code, consider reaching out to the original author
-   - While attribution is required by the license, there are many ways to show appreciation for code that brings value to your project
-   - The open source community thrives on mutual respect and recognition of value created
-   - Success takes many forms, and sharing that success (in whatever way feels appropriate) strengthens the community
-   - Every contribution to open source has value - how you recognize that value is up to you
-
-2. **Code Improvements**
-   - When you enhance EnCL code, consider sharing those improvements back if feasible
-   - While not all modifications can be shared (due to business restrictions, complexity, or other reasons), sharing what you can helps everyone
-   - Even sharing knowledge about how the code was enhanced can be valuable
-
-3. **Community Growth**
-   - Success stories encourage other enthusiast coders to share their work
-   - Reciprocity builds a stronger community
-   - Your success might inspire others to share their code
-
-Remember: These are hopes and aspirations, not requirements. EnCL is designed to give you complete freedom in how you use the code, while gently encouraging a spirit of sharing and mutual benefit when possible.
-
-Think of EnCL as sending your code into the universe with a clear message about its origins and nature, but without controlling its entire future journey. While proper attribution must be maintained, projects incorporating EnCL code can offer their own support, maintenance, and guarantees. The original EnCL disclaimers only apply to the code in its original form from the original author.
-
-For example:
-- If a company incorporates your EnCL-licensed utility function into their enterprise software, they can provide full support and warranties for their product
-- If a developer builds a larger library around your EnCL code, they can offer professional maintenance for their enhanced version
-- If a startup uses your EnCL code as a foundation, they can provide SLAs and guarantees for their commercial offering
-
-The key is that EnCL's "no support" provisions are about the original author's obligations, not restrictions on what others can offer when they build upon or incorporate the code.
